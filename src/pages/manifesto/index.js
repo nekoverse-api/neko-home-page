@@ -13,7 +13,7 @@ export default function Manifesto() {
       </div>
 
       <div className="px-4 text-3xl font-bold text-center">
-        It's time for a revolution in API client technology!
+        It&apos;s time for a revolution in API client technology!
       </div>
 
       <div className="py-2 px-4 text-gl text-center">

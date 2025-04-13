@@ -1,5 +1,5 @@
-import { Geist, Geist_Mono } from "next/font/google";
-
+import { Geist, Geist_Mono } from "next/font/google"
+import Head from "next/head"
 import Navbar from './navbar'
 import Footer from './footer'
 
@@ -17,9 +17,8 @@ export default function NekoLayout({ children }) {
   console.log(children.metadata)
   return (
     <html lang="en">
-      <head>
-        <title>Nekoverse</title>
-      </head>
+      <Head />
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
