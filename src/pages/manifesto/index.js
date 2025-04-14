@@ -12,12 +12,12 @@ export default function Manifesto() {
         <Neko width={180} />
       </div>
 
-      <div className="px-4 text-3xl font-bold text-center">
+      <div className="text-sky-700 px-4 text-3xl font-bold text-center">
         It&apos;s time for a revolution in API client technology!
       </div>
 
-      <div className="py-2 px-4 text-gl text-center">
-        Neko is a Faster, Git-Friendly, Flexible-Config and Highly Plugineable API client, aimed at revolutionizing the status quo represented by Postman, Insomnia, Bruno and similar tools out there.
+      <div className="max-w-4xl text-sky-600 py-2 px-4 text-gl text-center">
+        Neko is a Faster, Git-Friendly, Flexible, Extensible and Highly Plugineable API client, aimed at revolutionizing the status quo represented by Postman, Insomnia, Bruno and similar tools out there.
       </div>
     </div>
   );
